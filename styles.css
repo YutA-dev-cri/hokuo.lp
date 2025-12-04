@@ -542,7 +542,7 @@
 
 @media(max-width: 480px){
   .company-name{
-    font-size: 26px;
+    font-size: 18px;
     letter-spacing: 0.5px;
   }
 }
