@@ -176,13 +176,14 @@
 <section class="contact">
   <h2>お問い合わせ</h2>
 
-  <form class="contact-form">
-    <input type="text" placeholder="お名前" required>
-    <input type="email" placeholder="メールアドレス" required>
-    <textarea placeholder="ご相談内容" rows="5" required></textarea>
+ <form class="contact-form" action="https://formspree.io/f/mnnezqvv" method="POST">
+    <input type="text" name="name" placeholder="お名前" required>
+    <input type="email" name="email" placeholder="メールアドレス" required>
+    <textarea name="message" placeholder="ご相談内容" rows="5" required></textarea>
 
     <button type="submit" class="contact-btn">送信する</button>
-  </form>
+</form>
+
 </section>
 
 <footer class="footer">
