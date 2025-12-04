@@ -540,6 +540,14 @@
 
 }
 
+@media(max-width: 480px){
+  .company-name{
+    font-size: 26px;
+    letter-spacing: 0.5px;
+  }
+}
+
+
 
 
 @media(max-width:622px){
